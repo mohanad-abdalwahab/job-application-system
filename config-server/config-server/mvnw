@@ -1,0 +1,12 @@
+@echo off
+@REM ----------------------------------------------------------------------------
+@REM Maven Wrapper startup script for Windows
+@REM ----------------------------------------------------------------------------
+
+@setlocal
+
+set MVNW_CMD=cmd /c "%~dp0mvnw" %*
+
+call %MVNW_CMD%
+
+@endlocal
