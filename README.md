@@ -20,15 +20,17 @@ This is a Job Application System built using Spring Boot and Microservices Archi
 
 ```mermaid
 graph TD;
-    Client -->|HTTP| APIGateway
-    APIGateway -->|Route| UserService
-    APIGateway -->|Route| ApplicationService
+    Client --> APIGateway
+    ConfigServer --> APIGateway
+    APIGateway --> UserService
+    APIGateway --> ApplicationService
     UserService --> DiscoveryServer
     ApplicationService --> DiscoveryServer
     APIGateway --> DiscoveryServer
     ConfigServer --> UserService
     ConfigServer --> ApplicationService
     ConfigServer --> APIGateway
+
 ```
 
 >   All services retrieve their configuration from ConfigServer, which pulls from a GitHub repository.
