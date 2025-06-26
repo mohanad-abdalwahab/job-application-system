@@ -66,10 +66,6 @@ graph TD;
     ConfigServer --> APIGateway
 ```
 
->  All services retrieve their configuration from ConfigServer, which pulls from a GitHub repository.
-
----
-
 ##  How to Run the Project
 
 ```bash
