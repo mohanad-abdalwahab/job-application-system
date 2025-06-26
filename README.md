@@ -4,7 +4,7 @@ This is a Job Application System built using Spring Boot and Microservices Archi
 
 ---
 
-## 📦 Microservices Structure
+##   Microservices Structure
 
 | Service             | Description                                | Port |
 |--------------------|--------------------------------------------|------|
@@ -16,7 +16,7 @@ This is a Job Application System built using Spring Boot and Microservices Archi
 
 ---
 
-## 🌐 Architecture Overview
+##   Architecture Overview
 
 ```mermaid
 graph TD;
@@ -31,11 +31,11 @@ graph TD;
     ConfigServer --> APIGateway
 ```
 
-> 🔧 All services retrieve their configuration from ConfigServer, which pulls from a GitHub repository.
+>   All services retrieve their configuration from ConfigServer, which pulls from a GitHub repository.
 
 ---
 
-## 🚀 How to Run the Project
+##   How to Run the Project
 
 ```bash
 git clone https://github.com/mohanad-abdalwahab/job-application-system.git
@@ -56,7 +56,7 @@ cd job-application-system
 
 ---
 
-## 🔐 Technologies Used
+##   Technologies Used
 
 - Java 17  
 - Spring Boot 3.x  
@@ -67,7 +67,7 @@ cd job-application-system
 
 ---
 
-## ✍️ Author
+##   Author
 
 **Mohanad Abdalwahab**  
 Master's student in Information Technology, Islamic University of Gaza  
