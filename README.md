@@ -18,6 +18,7 @@ This is a **Job Application System** built using **Spring Boot** and designed fo
 
 ##   Architecture Overview
 
+
 ```mermaid
 graph TD;
     Client -->|HTTP| APIGateway
@@ -26,10 +27,9 @@ graph TD;
     UserService --> DiscoveryServer
     ApplicationService --> DiscoveryServer
     APIGateway --> DiscoveryServer
-    ConfigServer -->|Reads from| GitHubRepo
-    UserService --> ConfigServer
-    ApplicationService --> ConfigServer
-    APIGateway --> ConfigServer
+    ConfigServer --> UserService
+    ConfigServer --> ApplicationService
+    ConfigServer --> APIGateway
   All services retrieve their config from config-server, which pulls files from a GitHub repository.
 
   How to Run the Project
