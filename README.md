@@ -33,41 +33,26 @@ graph TD;
 
   How to Run the Project
 Clone the repository
-
-bash
-Copy
-Edit
 git clone https://github.com/mohanad-abdalwahab/job-application-system.git
 cd job-application-system
+
 Start services in order:
-
 config-server
-
 discovery-server
-
 user-service
-
 application-service
-
 api-gateway
 
 Access endpoints:
-
 Eureka dashboard: http://localhost:8761
-
 API Gateway: http://localhost:8083
 
   Technologies Used
 Java 17
-
 Spring Boot 3.x
-
 Spring Cloud (Config, Eureka, Gateway)
-
 Maven
-
-IntelliJ IDEA / PyCharm
-
+IntelliJ IDEA
 Git + GitHub
 
   Author
@@ -77,7 +62,3 @@ Advanced Software Engineering course, supervised by Dr. Abdul Karim Al-Ashqar
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-yaml
-Copy
-Edit
