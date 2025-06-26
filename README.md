@@ -76,23 +76,9 @@ Mohanad Abdalwahab
 Master's student in Information Technology , Islamic University of Gaza
 Advanced Software Engineering course, supervised by Dr. Abdul Karim Al-Ashqar
 
-📄 License
+License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 yaml
 Copy
 Edit
-
----
-
-## 📌 التعليمات:
-
-1. افتح مشروعك في IntelliJ.
-2. أنشئ ملفًا جديدًا في الجذر باسم `README.md`.
-3. انسخ النص أعلاه والصقه في الملف.
-4. احفظ الملف ثم نفّذ:
-
-```bash
-git add README.md
-git commit -m "Add project documentation in README.md"
-git push origin master
