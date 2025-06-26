@@ -30,7 +30,6 @@ graph TD;
     ConfigServer --> UserService
     ConfigServer --> ApplicationService
     ConfigServer --> APIGateway
-  All services retrieve their config from config-server, which pulls files from a GitHub repository.
 
   How to Run the Project
 Clone the repository
