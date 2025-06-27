@@ -6,13 +6,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @RestController
-@RequestMapping("/application")
+@RequestMapping("/application-service")
 
 public class ApplicationController {
-    @GetMapping("/application")
+    @GetMapping("/test")
 
-    public String home() {
-        return "Welcome to Application Service Root!";
+    public String testEndpoint() {
+        return "Hello from Application Service!";
     }
 }
+
 

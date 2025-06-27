@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/users")
+
 public class UserController {
 
-    @GetMapping("/hello")
-    public String sayHello() {
-        return "👋 Hello from User Service!";
+    @GetMapping("/test")
+    public String testEndpoint() {
+        return "✅ User Service is Working!";
     }
 }
