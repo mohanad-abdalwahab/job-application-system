@@ -1,4 +1,4 @@
-# 🧩 Job Application System - Microservices Architecture
+# Job Application System - Microservices Architecture
 
 This is a Job Application System built using Spring Boot and Microservices Architecture. Each service is modular and registered via Eureka Discovery Server with centralized configuration.
 
