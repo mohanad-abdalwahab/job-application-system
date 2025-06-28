@@ -1,4 +1,3 @@
-
 package com.api_gateway.api_gateway;
 
 import org.springframework.boot.SpringApplication;
