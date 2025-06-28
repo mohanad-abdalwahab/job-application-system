@@ -13,15 +13,22 @@ spring:
           uri: lb://user-service
           predicates:
             - Path=/user/**
+          filters:
+            - StripPrefix=1
         - id: application-service
           uri: lb://application-service
           predicates:
             - Path=/application/**
-    discovery:
-      locator:
-        enabled: false
+          filters:
+            - StripPrefix=1
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
 
 eureka:
   client:
+    register-with-eureka: true
+    fetch-registry: true
     service-url:
       defaultZone: http://localhost:8761/eureka
