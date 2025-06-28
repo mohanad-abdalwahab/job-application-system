@@ -10,9 +10,9 @@ This is a Job Application System built using Spring Boot and Microservices Archi
 |--------------------|--------------------------------------------|------|
 | config-server       | Centralized configuration via GitHub repo | 8888 |
 | discovery-server    | Eureka service registry                   | 8761 |
-| user-service        | Manages job seekers and HR users          | 8082 |
-| application-service | Handles job applications & statuses       | 8081 |
-| api-gateway         | Routes and protects APIs                  | 8083 |
+| user-service        | Manages job seekers and HR users          | 8081 |
+| application-service | Handles job applications & statuses       | 8083 |
+| api-gateway         | Routes and protects APIs                  | 8080 |
 
 ---
 
