@@ -29,6 +29,8 @@ graph TD;
     ApplicationService --> DiscoveryServer
     ConfigServer --> UserService
     ConfigServer --> ApplicationService
+    ApplicationService --> ConfigServer
+
 
 ```
 
