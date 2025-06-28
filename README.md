@@ -24,10 +24,9 @@ graph TD;
     APIGateway --> ConfigServer
     APIGateway --> UserService
     APIGateway --> ApplicationService
-    APIGateway --> DiscoveryServer
-    UserService --> DiscoveryServer
-    ApplicationService --> DiscoveryServer
+    APIGateway --> DiscoveryServer  
     ConfigServer --> UserService
+    UserService --> ConfigServer
     ConfigServer --> ApplicationService
     ApplicationService --> ConfigServer
 
