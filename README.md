@@ -21,15 +21,14 @@ This is a Job Application System built using Spring Boot and Microservices Archi
 ```mermaid
 graph TD;
     Client --> APIGateway
-    ConfigServer --> APIGateway
+    APIGateway --> ConfigServer
     APIGateway --> UserService
     APIGateway --> ApplicationService
+    APIGateway --> DiscoveryServer
     UserService --> DiscoveryServer
     ApplicationService --> DiscoveryServer
-    APIGateway --> DiscoveryServer
     ConfigServer --> UserService
     ConfigServer --> ApplicationService
-    ConfigServer --> APIGateway
 
 ```
 
